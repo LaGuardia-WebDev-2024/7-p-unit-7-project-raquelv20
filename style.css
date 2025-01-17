@@ -2,9 +2,10 @@ body {
   background-color: black;
   text-align: center;
   color: white;
+
 }
 
-
+h1{color:rgb(201, 181, 246 )}
 #myCanvas {
   background-image: url("https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: 400px;

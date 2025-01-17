@@ -5,6 +5,9 @@ void setup() {
 
 //🎯Variable Declarations Go Here
 var fireworkX = 20;
+var star = 20;
+var square= 20;
+var lily= 40;
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
@@ -18,9 +21,13 @@ draw = function(){
   
   //🎯Animation Code Goes Here
   rect(fireworkX, 15, 10, 10);
-  
+  ellipse(10,star,10,10)
+  rect(square,10,10,10)
+  ellipse(180,50,lily,30)
   fireworkX = fireworkX + 1;
-
+star=star+1;
+square+=2;
+lily=lily+3 ;
 }
 
 //🟡Extra FUN Features Ms. Hall Added
